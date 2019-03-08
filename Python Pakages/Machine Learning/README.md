@@ -4,6 +4,9 @@
   - Tensorflow(tf)가 워낙 잘 구축되어있어서 tf의 함수들을 그냥 가져다가 쓰면 되지만, 심도있는 머신러닝 공부를 위해서는 tf의 내부구조를 파악해야합니다.
   - tf의 함수들은 Numpy(np)로 구현됩니다. tf에서 사용되는 주요 함수들과 backpropagation을 np로 구현하여 tf를 직접 구현해본 패키지입니다.
 
+- 'data set', 'MNIST_data' 폴더
+ - 아래 머신러닝에 사용된 데이터 셋이 들어있습니다.
+
 - 머신러닝 설명 : 
   - tf_MNIST_classifier.py
     - tensorflow 패키지로 MNIST 손글씨 데이터 분류 ML
