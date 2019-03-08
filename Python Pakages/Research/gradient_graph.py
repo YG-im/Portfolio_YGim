@@ -5,9 +5,10 @@ import matplotlib.pylab as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 
-def _numerical_gradient_no_batch(f, x):
-    h = 1e-4  # 0.0001
-    grad = np.zeros_like(x)  # x와 형상이 같은 배열을 생성
+def _numerical_gradient(f, x):
+    h = 1e-3  # 0.001
+    grad = np.zeros_like(x)
+    # x와 형상이 같은 배열을 생성
 
     for idx in range(x.size):
         tmp_val = x[idx]
@@ -28,12 +29,12 @@ def _numerical_gradient_no_batch(f, x):
 
 def numerical_gradient(f, X):
     if X.ndim == 1:
-        return _numerical_gradient_no_batch(f, X)
+        return _numerical_gradient(f, X)
     else:
         grad = np.zeros_like(X)
 
         for idx, x in enumerate(X):
-            grad[idx] = _numerical_gradient_no_batch(f, x)
+            grad[idx] = _numerical_gradient(f, x)
 
         return grad
 
