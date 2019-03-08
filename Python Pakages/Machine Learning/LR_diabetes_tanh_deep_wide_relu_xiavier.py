@@ -1,4 +1,3 @@
-# Lab 5 Logistic Regression Classifier
 import tensorflow as tf
 import numpy as np
 import random
@@ -14,7 +13,7 @@ def tanh_sigmoid(x):
 keep_prob = tf.placeholder(tf.float32)
 ####################################
 
-xy = np.loadtxt('data-03-diabetes.csv', delimiter=',', dtype=np.float32)
+xy = np.loadtxt('data_set/data-03-diabetes.csv', delimiter=',', dtype=np.float32)
 x_data = xy[:, 0:-1]     #훈련 데이터 범위 지정.
 y_data = xy[:, [-1]]     #결과 라벨링 데이터 범위 지정.
 
@@ -30,9 +29,9 @@ with tf.name_scope("Layer1"):  #name_scope를 활용하면 게층별로 깔끔�
     #W1 = tf.Variable(tf.random_normal([8, 10]), name='weight')   #데이터 크기에 따라 바꾸기.
     W1=tf.get_variable("W1", shape=[8, 10], initializer=tf.contrib.layers.xavier_initializer())
     b1 = tf.Variable(tf.random_normal([10]), name='bias')
-    #layer1 = tanh_sigmoid(tf.matmul(X, W1) + b1)
+    layer1 = tanh_sigmoid(tf.matmul(X, W1) + b1)
     #layer1 = tf.sigmoid(tf.matmul(X, W1) + b1)
-    layer1 = tf.nn.relu(tf.matmul(X, W1) + b1)
+    #layer1 = tf.nn.relu(tf.matmul(X, W1) + b1)
     layer1= tf.nn.dropout(layer1, keep_prob=keep_prob) ####################################
 # 깊게 레이어가 쌓여지면 오버피팅이 발생함. 그래서 dropout은 오버피팅을 막기위하여 랜덤하게 부분부분만 사용해서 훈련시키는거.
 
@@ -45,9 +44,9 @@ with tf.name_scope("Layer2"):  #name_scope를 활용하면 게층별로 깔끔�
     #W2 = tf.Variable(tf.random_normal([10, 10]), name='weight')   #데이터 크기에 따라 바꾸기.
     W2 = tf.get_variable("W2", shape=[10, 10], initializer=tf.contrib.layers.xavier_initializer())
     b2 = tf.Variable(tf.random_normal([10]), name='bias')
-    #layer2 = tanh_sigmoid(tf.matmul(layer1, W2) + b2)
+    layer2 = tanh_sigmoid(tf.matmul(layer1, W2) + b2)
     #layer2 = tf.sigmoid(tf.matmul(layer1, W2) + b2)
-    layer2 = tf.nn.relu(tf.matmul(layer1, W2) + b2)
+    #layer2 = tf.nn.relu(tf.matmul(layer1, W2) + b2)
     layer2 = tf.nn.dropout(layer2, keep_prob=keep_prob)  ####################################
 
     tf.summary.histogram("W2", W2)  #어떤 텐서를 로깅할 것인지 정하기.
