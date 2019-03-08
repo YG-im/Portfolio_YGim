@@ -22,7 +22,7 @@
     - 주어진 동물의 특징에 따른 동물의 종을 알아맞출 수 있습니다.
   - keras_MNIST_classifier.py
     - kera 패키지로 MNIST 손글씨 데이터 분류 ML
-    - MNIST 손글씨 데이터를 분류하는 머신러닝을 keras 패키지를 활용하여 규현한 프로그램입니다.
+    - MNIST 손글씨 데이터를 분류하는 머신러닝을 keras 패키지를 활용하여 구현한 프로그램입니다.
   - keras_BMI_test.py
     - Keras를 활용한 BMI test ML
     - keras 패키지를 이용하여 BMI를 판단하는 머신러닝입니다.
