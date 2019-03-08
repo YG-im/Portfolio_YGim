@@ -1,7 +1,7 @@
 # Mathematica
 Mathematica code for research
 - 연구자들을 위하여 만든 Mathematica 라이브러리 입니다.
-  - \*\*\*.nb는 Mathematica 확장자입니다.
+  - '.nb'는 Mathematica 확장자입니다.
   - Mathematica는 파워풀한 심볼릭 계산과 수학과 연계한 직관적 코드를 작성할 수 있다는 강점이 있습니다.
   - 하지만 계산이 무거워질 수록 계산에 요구되는 컴퓨터 성능이 지수적으로 커진다는 단점이 있습니다.
   - 따라서 무거운 수치 시뮬레이션은 파이썬 프로그램을 참고하시기 바랍니다.
