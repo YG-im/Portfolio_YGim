@@ -6,7 +6,7 @@
   - tf의 함수들은 Numpy(np)로 구현됩니다. tf에서 사용되는 주요 함수들과 backpropagation을 np로 구현하여 tf를 직접 구현해본 패키지입니다.
 
 - 'data set', 'MNIST_data' 폴더
- - 아래 머신러닝에 사용된 데이터 셋이 들어있습니다.
+   - 아래 머신러닝에 사용된 데이터 셋이 들어있습니다.
 
 - 머신러닝 설명 : 
   - tf_MNIST_classifier.py
