@@ -1,4 +1,5 @@
 # Machine Learnig
+#### '.ipynb'와 '.py'가 둘 다 있는 코드는 '.ipynb'를 보시길 추천합니다. ('.py'는 '.ipynb'를 '.py'로 내보낸 버젼입니다.)
 
 - 'Classifier for MNIS data set only np and plt' 폴더
   - Tensorflow(tf)가 워낙 잘 구축되어있어서 tf의 함수들을 그냥 가져다가 쓰면 되지만, 심도있는 머신러닝 공부를 위해서는 tf의 내부구조를 파악해야합니다.
