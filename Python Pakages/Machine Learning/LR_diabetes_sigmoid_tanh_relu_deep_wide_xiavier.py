@@ -13,7 +13,7 @@ def tanh_sigmoid(x):
 keep_prob = tf.placeholder(tf.float32)
 ####################################
 
-xy = np.loadtxt('data_set/data-03-diabetes.csv', delimiter=',', dtype=np.float32)
+xy = np.loadtxt('data_set/diabetes.csv', delimiter=',', dtype=np.float32)
 x_data = xy[:, 0:-1]     #훈련 데이터 범위 지정.
 y_data = xy[:, [-1]]     #결과 라벨링 데이터 범위 지정.
 

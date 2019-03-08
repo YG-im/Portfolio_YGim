@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6322658e-664e-46f8-ab9d-bf13c324800e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Machine Learning/LR_diabetes_tanh_deep_wide_relu_xiavier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Machine Learning/LR_diabetes_tanh_deep_wide_relu_xiavier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/data-03-diabetes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/data-04-zoo.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/dataset/mnist.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/dataset/mnist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/dataset/t10k-images-idx3-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/dataset/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/dataset/train-images-idx3-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Machine Learning/dataset/train-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine Learning/LR_diabetes_tanh_deep_wide_relu_xiavier.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,19 +13,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Machine Learning/LR_diabetes_tanh_deep_wide_relu_xiavier.py">
+        <entry file="file://$PROJECT_DIR$/Machine Learning/softmax_zoo_classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#39#62#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Machine Learning/softmax_zoo_classifier.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -45,6 +30,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Machine Learning/LR_diabetes_tanh_deep_wide_relu_xiavier.py" />
+        <option value="$PROJECT_DIR$/Machine Learning/softmax_zoo_classifier.py" />
       </list>
     </option>
   </component>
@@ -163,7 +149,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -171,7 +157,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295129" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295129" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -182,15 +168,19 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Machine Learning/softmax_zoo_classifier.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Machine Learning/LR_diabetes_tanh_deep_wide_relu_xiavier.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#39#62#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Machine Learning/softmax_zoo_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>
