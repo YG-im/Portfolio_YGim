@@ -5,10 +5,9 @@
   - tf의 함수들은 Numpy(np)로 구현됩니다. tf에서 사용되는 주요 함수들과 backpropagation을 np로 구현하여 tf를 직접 구현해본 패키지입니다.
 
 - 머신러닝 관련 패키지들입니다.
-  - LR_diabetes_sigmoid_tanh_relu_deep_wide_xiavier.py
+  - LR_diabetes_sigmoid_tanh_relu_deep_wide_xiavier
     -
-  - MNIST_classifier_by_tf.py
-    -
-  - softmax_zoo_classifier.py
-    - 
+  - MNIST_classifier_by_tf
+  - softmax_zoo_classifier
+
   
