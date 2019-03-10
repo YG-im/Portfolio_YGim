@@ -92,21 +92,3 @@ with tf.Session() as sess:
         print("[{}] Prediction: {} True Y: {}".format(p == int(y), p, int(y)))
 
 
-
-
-'''
-Step:     0 Loss: 5.106 Acc: 37.62%
-Step:   100 Loss: 0.800 Acc: 79.21%
-Step:   200 Loss: 0.486 Acc: 88.12%
-...
-Step:  1800	Loss: 0.060	Acc: 100.00%
-Step:  1900	Loss: 0.057	Acc: 100.00%
-Step:  2000	Loss: 0.054	Acc: 100.00%
-[True] Prediction: 0 True Y: 0
-[True] Prediction: 0 True Y: 0
-[True] Prediction: 3 True Y: 3
-...
-[True] Prediction: 0 True Y: 0
-[True] Prediction: 6 True Y: 6
-[True] Prediction: 1 True Y: 1
-'''
