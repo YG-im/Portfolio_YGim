@@ -1,5 +1,5 @@
 # 파이썬 패키지들에 대한 간략한 설명.
-#### (!!) '.ipynb'와 '.py'가 둘 다 있는 코드는 '.ipynb'를 보시길 추천합니다. ('.py'는 '.ipynb'를 '.py'로 내보낸 버젼입니다.)
+
 
 - Morse code encoder and decoder.ipynb
   - 모스부호를 암호화하고 해독하는 프로그램입니다.
