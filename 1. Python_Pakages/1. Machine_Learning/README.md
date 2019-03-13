@@ -32,7 +32,7 @@
     - keras 패키지를 이용하여 BMI를 판단하는 머신러닝입니다.
     - 'data_set/bmi.csv'에 있는 BMI 정보로 훈련을 시킵니다.
     - 몸무게(weight)와 키(height)를 입력하면 마름(thin), 정상(normal), 뚱뚱함(fat)을 판단해줍니다.
-- 데이터 전처리 클래스 :
+- 데이터 전처리용 클래스 :
   - data_preprocessing-personal_information.ipynb
     - 크롤링 데이터로 부터 개인정보 추출하는 클래스입니다.
     - 웹에서 크롤링한 텍스트 데이터로 부터 핸드폰번호, 주민등록번호, 이메일 주소를 list형식으로 추출해줍니다.
