@@ -32,11 +32,12 @@
     - keras 패키지를 이용하여 BMI를 판단하는 머신러닝입니다.
     - 'data_set/bmi.csv'에 있는 BMI 정보로 훈련을 시킵니다.
     - 몸무게(weight)와 키(height)를 입력하면 마름(thin), 정상(normal), 뚱뚱함(fat)을 판단해줍니다.
-- 데이터 전처리용 클래스 :
-  - data_preprocessing-personal_information.ipynb
+- 데이터 전처리 :
+  - preprocessing-personal_information.ipynb
     - 크롤링 데이터로 부터 개인정보 추출하는 클래스입니다.
     - 웹에서 크롤링한 텍스트 데이터로 부터 핸드폰번호, 주민등록번호, 이메일 주소를 list형식으로 추출해줍니다.
     - python의 regex 기능을 활용하여 패턴에 따른 분류를 하며, 원하는 데이터가 있을 시 패턴을 등록하여 필터링할 데이터를 추가할 수 있습니다.
     - 개인정보 보호를 위하여 주민등록번호 뒤 6자리를 *로 마킹하는 기능이 있습니다.
-  
+  - preprocessing-house_price.ipynb
+    - 미국 워싱턴주 시애틀 인근의 집값 데이터 전처리 코드.
 
