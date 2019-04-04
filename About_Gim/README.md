@@ -1,4 +1,5 @@
 # About Dr. Gim
+- I am PhD in theoretical physics (high energy physics-theory).
 
 - PAPER
   - 지금까지 작성해온 총 20편의 연구논문에 대한 포트폴리오입니다.
