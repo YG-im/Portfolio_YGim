@@ -1,6 +1,7 @@
 # 데이터 탐색, 전처리 모듈
 
-## preprocessing_module.py (자세한 구현 예시 : Examples.ipynb)
+## preprocessing_module.py
+  - 자세한 구현 예시 : [Examples] Genetic_algorithm_module and preprocessing_module.ipynb
   - 데이터 탐색과 전처리 때마다 매번 반복해서 하는 작업을 효율적으로 하고 전체 코드를 깔끔하게 작성하기 위하여 만든 모듈.
   - 특징들을 분류하고, 왜도를 탐색하고, 그래프를 그려보고, 상관관계를 구해보는 등 처음 데이터를 탐색할 때 수행하는 반복 작업들을 효율적으로 진행하기 위한 모듈입니다.
   - 반복적으로 사용하는 작업을 하나의 함수로 만들었기 때문에 코드를 복사해와서 데이터에 맞게 수정해서 다시 돌리는 작업을 함수 한줄로 사용가능합니다.
@@ -21,12 +22,24 @@
     - 'check_skew' : 특징들의 왜도를 체크해주고 입력한 기준에 미달되는 특징을 분류해주는 함수.
     - 'rmse' : root mean squared error
 
-## Genetic_algorithm_module.py (자세한 구현 예시 : Examples.ipynb)
+## Genetic_algorithm_module.py 
+  - 자세한 구현 예시 : [Examples] Genetic_algorithm_module and preprocessing_module.ipynb
   - 특징 선택 작업 중 가장 효율적인 작업인 유전 알고리즘을 수행할 수 있는 모듈
   - Deap이라는 진화알고리즘을 포함하는 모듈패키지가 있지만 사용을 위해 모듈을 파악하기가 어렵게 되어있음. 이 때문에 유전알고리즘의 기본 원리를 가지고 활용이 쉽도록 커스터마이징한 코드
   - 'from Genetic_algorithm import genetic_algorithm'하셔서 사용하시면 됩니다.
   - genetic_algorithm 함수 하나만 사용하여 가장 최적의 특징선택을 하실 수 있습니다.
   
-## Examples.ipynb
-  - 위의 두 가지 모듈의 자세한 사용예시입니다.
+## Extract_inf_module.py  
+  - 자세한 구현 예시 : [Example] Extract_inf_module.ipynb
+  - 텍스트 데이터로 부터 전화번호, 이메일, 주민등록번호를 추출해주는 모듈로 아래와 같은 함수를 가지고 있음.
+      - 숫자와 한글이 얽혀있는 전화번호를 깔끔하게 숫자로만 추출해주는 함수.
+      - 텍스트들 중 이메일 주소만들 추출해주는 함수.
+      - 텍스트들 중 주민등록번호를 추출해주고, 개인 정보보호를 위해 뒤에 6자리를 \*로 변환해주는 함수.
+  
+  
+## [Examples] Genetic_algorithm_module and preprocessing_module.ipynb
+  - Genetic_algorithm_module과 preprocessing_module 모듈의 자세한 사용예시입니다.
   - 이외의 자세한 함수 내 변수의 의미 혹은 사용법은 shift+tab을 사용하면 확인가능합니다.
+  
+## [Example] Extract_inf_module.ipynb
+  -  Extract_inf_module 모듈의 자세한 사용예시입니다.
