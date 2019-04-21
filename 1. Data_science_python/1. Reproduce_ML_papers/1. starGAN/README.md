@@ -1,7 +1,7 @@
 # starGAN 논문 구현
 - 'starGAN.ipynb'
     - starGAN을 tensorflow2.0으로 구현한 프로토타입 코드입니다.
-    - GPU 환경이 구축되어있지 않아서 실제 training까지는 하지 못했습니다. 저자들은 training에 single NVIDIA Tesla M40 GPU로 하루가 걸렸다고 밝혔습니다. ("Training takes about one day on a single NVIDIA Tesla M40 GPU.")
+    - GPU 환경이 구축되어있지 않아서 실제 training까지는 하지 못했습니다. 저자들은 training에 single NVIDIA Tesla M40 GPU로 하루가 소요되었다고 밝혔습니다. ("Training takes about one day on a single NVIDIA Tesla M40 GPU.")
 - 'starGAN arxiv1711.09020.pdf'
     - starGAN 논문 아카이브 버젼입니다.
 - '[study] DCGAN' 폴더 
