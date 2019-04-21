@@ -1,7 +1,8 @@
 # SCI급 논문 게재 실적 
 
 - 총 20편(1저자 14편) : SCI급 17편 및 3편 심사 중
-- 총 인용수 : 193회/h-index = 7 (2019.04.21 google scholar 기준 : https://scholar.google.co.kr/citations?hl=ko&authuser=2&user=4IxPnAYAAAAJ)
+- 총 인용수 : 193회/h-index = 7
+  - 2019.04.21 google scholar 기준 : https://scholar.google.co.kr/citations?hl=ko&authuser=2&user=4IxPnAYAAAAJ
 - 논문관련 포트폴리오 : http://inspirehep.net/author/profile/Y.Gim.2
 
 [1] Y. Gim and W. Kim, “The role of the cosmological constant as a pressure in the (2+1)-dimensional black string”, (Accepted in Phys. Lett. B) arXiv:1812.06085. 
