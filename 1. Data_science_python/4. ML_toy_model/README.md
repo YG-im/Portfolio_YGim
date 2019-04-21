@@ -1,7 +1,7 @@
-# Machine Learnig
+# Machine Learnig toy model
 
 
-- 머신러닝 설명 : 
+- 모델 설명 : 
   - tf_LR_diabetes_sigmoid_tanh_relu_deep_wide_xiavier.ipynb  
     - tf 패키지를 활용하여 당뇨를 예측하는 ML
     - 'data_set/diabetes.csv'에 있는 당뇨 정보를 훈련시킵니다.
