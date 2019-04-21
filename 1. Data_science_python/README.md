@@ -5,9 +5,9 @@
       - 박사후 연구원으로서 머신러닝 알고리즘에대한 연구활동.
       - GAN관련 최신 논문들을 직접 구현해본 코드들.
       - 주사용 패키지 : tesorflow 2.0
-         - 리뷰 완료
+         - 구현 완료
              1. starGAN : Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation
-         - 리뷰 중
+         - 구현 예정
              1. WaveNet: A Generative Model for Raw Audio
   - 'Data_science'
       - 박사후 연구원으로서 현재 진행 중인 연구 프로젝트를 위한 블랙홀 생성 모형 개발을 위한 데이터 분석 코드.
