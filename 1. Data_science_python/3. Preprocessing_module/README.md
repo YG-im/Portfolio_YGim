@@ -25,9 +25,9 @@
 ## Genetic_algorithm_module.py 
   - 자세한 구현 예시 : [Examples] Genetic_algorithm_module and preprocessing_module.ipynb
   - 특징 선택 작업 중 가장 효율적인 작업인 유전 알고리즘을 수행할 수 있는 모듈
-  - Deap이라는 진화알고리즘을 포함하는 모듈패키지가 있지만 사용을 위해 모듈을 파악하기가 어렵게 되어있음. 이 때문에 유전알고리즘의 기본 원리를 가지고 활용이 쉽도록 커스터마이징한 코드
+  - Deap이라는 진화알고리즘을 포함하는 모듈패키지가 있지만 사용을 위해 모듈을 파악하기가 어렵게 되어서 활용이 어려움. 이를 개선하기 위하여 유전알고리즘의 기본 원리를 바탕으로 활용이 쉬운 커스터마이징 모듈 제작.
   - 'from Genetic_algorithm import genetic_algorithm'하셔서 사용하시면 됩니다.
-  - genetic_algorithm 함수 하나만 사용하여 가장 최적의 특징선택을 하실 수 있습니다.
+  - genetic_algorithm 함수 하나만 사용하면 도메인 지식 없이도 가장 최적의 특징선택을 진행 할 수 있습니다.
   
 ## Extract_inf_module.py  
   - 자세한 구현 예시 : [Example] Extract_inf_module.ipynb
