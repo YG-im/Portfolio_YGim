@@ -27,6 +27,6 @@
 
 ## 3. 영어 논문 작성법 번역 및 강연 
 ### [번역] Notes on the writing of scientific english for japanese physicists.pdf
--  ‘03년 노벨물리학상 수상자인 Anthony J. Leggett가 일본인 물리학자들을 위한 과학 영어 작문에 대해 분석하고 개선안을 제시한 글은  “Notes on the Writing of Scientific English for Japanese Physicists”의 전문을 한국어 번역.
-- 일본어와 한국어가 비슷한 언어 문화가 있는 점에 착안하여 영어 작문에 어려움을 겪는 많은 한국인 학자들을 위해 번역을 진행함.
+-  ‘03년 노벨물리학상 수상자인 Anthony J. Leggett가 일본인 학자들의 영어 논문 작성 습관에 대해 분석하고 개선안으로 제시한 글인  “Notes on the Writing of Scientific English for Japanese Physicists”의 전문을 한국어 번역.
+- 일본어와 한국어가 비슷한 언어 문화를 가지고 있다는 점에 착안하여 영어 작문에 어려움을 겪는 많은 한국 과학자들을 위해 번역을 진행함.
 - 본 번역 자료로 본교 이론물리 연구실 대상 영어 논문 작성법 강연을 진행함.
