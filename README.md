@@ -1,11 +1,11 @@
 # 김용완의 포트폴리오
-- 핵심역량
+- **핵심역량**
   - Ph.D. in theoretical physics (high energy physics-theory)
-  - 높은 수준의 수학 및 물리 지식 / 응용 경험 / 인사이트
-  - Machine Learning 분야에 대한 개념 및 트렌드 이해 / 논문 구현 경험
-  - Python 및 머신러닝 관련 패키지(sklearn, Tensorflow 등)를 활용한 개발
+  - **높은 수준의 수학 및 물리 지식 / 응용 경험 / 인사이트**
+  - Machine Learning 분야에 대한 개념 및 트렌드 이해 / **논문 구현 경험**
+  - **Python 및 머신러닝 관련 프레임워크(sklearn, Tensorflow 등)를 활용한 개발**
   - Mathematica 및 관련 패키지(X-Tensor)를 활용한 개발
-  - 수리/물리 모델링 활용 논문 20편 발표 - SCI(E) 논문 17편 
+  - **수리/물리 모델링 활용 논문 20편** 발표 - SCI(E) 논문 17편 
   - 학술/비즈니스 영어 작문 및 회화 실력
 
 - 포트폴리오 폴더 별 간략 소개
