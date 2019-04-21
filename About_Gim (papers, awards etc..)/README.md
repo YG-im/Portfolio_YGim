@@ -1,4 +1,4 @@
-# About Yongwan Gim, phD
+# About Yongwan Gim, PhD
 - PhD in theoretical physics (high energy physics-theory).
 
 - PAPER
