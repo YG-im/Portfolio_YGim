@@ -2,9 +2,9 @@
 
 - 폴더 설명 :
   - 'Reproduce_ML_papers'
-      - 박사후 연구원으로서 머신러닝에대한 연구활동.
+      - 박사후 연구원으로서 머신러닝 알고리즘에대한 연구활동.
       - GAN관련 최신 논문들을 직접 구현해본 코드들.
-      - 주사용 패키지 : tesorflow 2.0, Numpy
+      - 주사용 패키지 : tesorflow 2.0
          - 리뷰 완료
              1. starGAN : Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation
          - 리뷰 중
