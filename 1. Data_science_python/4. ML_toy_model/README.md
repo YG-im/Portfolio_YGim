@@ -2,6 +2,11 @@
 
 
 - 모델 설명 : 
+  - MIST classifier without ML library.ipynb
+    - 이미지 사이의 유사도 체크를 하여 이미지의 숫자를 분류하는 분류기.
+    - neural net과 같은 머신러닝 알고리즘을 사용하지 않았습니다.
+    - 새롭게 고안한 유사도 체크하는 알고리즘으로 분류기를 구현했습니다.
+    - test set에 대해 약 80%의 정확도를 가지고 이미지를 분류합니다.
   - tf_LR_diabetes_sigmoid_tanh_relu_deep_wide_xiavier.ipynb  
     - tf 패키지를 활용하여 당뇨를 예측하는 ML
     - 'data_set/diabetes.csv'에 있는 당뇨 정보를 훈련시킵니다.
@@ -14,7 +19,8 @@
     - tensorflow 패키지로 MNIST 손글씨 데이터 분류 ML
     - MNIST 손글씨 데이터를 분류하는 머신러닝을 tensorflow 패키지를 활용하여 구현한 프로그램입니다.
     - learning rate = 0.01, batch size = 100, drop out = 1 (단층 레이어이기때문.)
-    - keras보다 코드가 복잡하지만 분류기의 원리를 파악하기 위해서 tf로 머신을 말들어봄.
+    - keras보다 코드가 복잡하지만 분류기의 원리를 파악하기 위해서 tf로 머신을 만들어보았습니다.
+    - 약 89%의 정확도를 가지고 분류를 합니다.
   - keras_MNIST_classifier.ipynb
     - kera 패키지로 MNIST 손글씨 데이터 분류 ML
     - MNIST 손글씨 데이터를 분류하는 머신러닝을 keras 패키지를 활용하여 구현한 프로그램입니다.
